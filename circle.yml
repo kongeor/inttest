@@ -1,0 +1,4 @@
+test:
+  pre:
+    - lein uberjar
+    - java -jar target/uberjar/inttest.jar
