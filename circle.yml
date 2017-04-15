@@ -1,5 +1,5 @@
 test:
   pre:
     - lein uberjar
-    - java -jar target/uberjar/inttest.jar:
+    - ./start.sh:
       background: true
