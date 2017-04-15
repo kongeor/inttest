@@ -1,4 +1,5 @@
 test:
   pre:
     - lein uberjar
-    - java -jar target/uberjar/inttest.jar
+    - java -jar target/uberjar/inttest.jar:
+      background: true
