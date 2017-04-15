@@ -2,6 +2,6 @@ test:
   pre:
     - lein uberjar
     - ./start.sh:
-      background: true
+        background: true
   override:
     - lein test
