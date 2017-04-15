@@ -3,3 +3,5 @@ test:
     - lein uberjar
     - ./start.sh:
       background: true
+  override:
+    - lein test
