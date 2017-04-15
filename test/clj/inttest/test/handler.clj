@@ -5,4 +5,4 @@
 
 (deftest test-app
   (testing "main route"
-    (is (= "7" (slurp "http://localhost:3000/api/plus?x=5&y=2")))))
+    (is (= "8" (slurp "http://localhost:3000/api/plus?x=5&y=2")))))
